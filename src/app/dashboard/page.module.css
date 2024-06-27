@@ -1,0 +1,171 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.bgImg {
+  position: absolute;
+  width: 100vw;
+  top: 0vw;
+  left: 0vw;
+  z-index: -1;
+}
+
+.linkBox {
+  position: absolute;
+  right: 6.25vw;
+  display: flex;
+  flex-direction: column;
+  top: 1vw;
+}
+
+.linkBox a {
+  position: relative;
+  margin-top: 2vw;
+  font-family: "Freight Neo Pro", sans-serif;
+  font-size: 1.04vw;
+  font-weight: normal;
+  color: #969696;
+  transition: 0.3s;
+}
+
+.linkBox a:hover {
+  color: #111111;
+}
+
+.listLink {
+  position: fixed;
+  font-family: "Helvetica Now Display Medium", sans-serif;
+  font-size: 0.83vw;
+  color: #f0f0f0;
+  background-color: #111111;
+  padding: 1.04vw 1.56vw;
+  border-radius: 100vw;
+  font-weight: bold;
+  transition: 0.3s;
+  margin-top: 2vw;
+  top: 45vh;
+  right: 7vw;
+  width: max-content;
+  z-index: 999;
+}
+
+.listLink:hover {
+  background-color: #4a4a4a;
+}
+
+.mainHeader {
+  font-family: "Helvetica Now Display Regular", sans-serif;
+  font-size: 4.16vw;
+  font-weight: normal;
+  color: #111111;
+  width: 52vw;
+  padding-left: 2vw;
+  padding-top: 2vw;
+}
+
+.subText {
+  font-family: "Helvetica Now Display Regular", sans-serif;
+  font-size: 1.46vw;
+  font-weight: normal;
+  color: #565656;
+  width: 52vw;
+  padding-top: 6.25vw;
+  padding-bottom: 12vw;
+  padding-left: 2vw;
+}
+
+.catagoryWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  padding-bottom: 8.33vw;
+}
+
+.catagoryHeader {
+  font-family: "Helvetica Now Display Regular", sans-serif;
+  font-size: 2.6vw;
+  font-weight: normal;
+  color: #111111;
+  width: 50vw;
+  padding-left: 2vw;
+}
+
+.brandExperienceWrapper {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2vw;
+  padding-bottom: 4.16vw;
+}
+
+.brandExperience {
+  padding-left: 1.04vw;
+  width: 32.7vw;
+  height: fit-content;
+  transition: 0.3s;
+}
+
+.brandExperience:hover {
+  opacity: 0.5;
+}
+
+.catagoryLink {
+  position: relative;
+  font-family: "Helvetica Now Display Medium", sans-serif;
+  font-size: 0.83vw;
+  color: #111111;
+  background-color: #f0f0f0;
+  padding: 1.04vw 1.56vw;
+  border-radius: 100vw;
+  align-self: center;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.catagoryLink:hover {
+  background-color: #dddddd;
+}
+
+.wishlistText {
+  align-self: center;
+  width: 40vw;
+  text-align: center;
+  position: relative;
+  font-family: "Freight Neo Pro", sans-serif;
+  font-size: 1.46vw;
+  font-weight: normal;
+  color: #969696;
+  padding-bottom: 2vw;
+}
+
+.modalImg {
+  max-width: 47.19vw;
+  max-height: 60vh;
+  object-fit: contain;
+  padding-top: 4.16vw;
+  padding-left: 0.5vw;
+  padding-bottom: 2vw;
+}
+
+.modalHeader {
+  font-family: "Helvetica Now Display Regular", sans-serif;
+  font-size: 2.6vw;
+  font-weight: normal;
+  color: #111111;
+  width: 50vw;
+  padding-left: 2vw;
+  padding-bottom: 2vw;
+}
+
+.modalSubText {
+  font-family: "Helvetica Now Display Regular", sans-serif;
+  font-size: 1.15vw;
+  font-weight: normal;
+  color: #111111;
+  width: 50vw;
+  padding-left: 2vw;
+  padding-bottom: 2vw;
+}

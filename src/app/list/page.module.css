@@ -1,0 +1,193 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: #111111;
+}
+
+.linkBox {
+  position: absolute;
+  right: 6.25vw;
+  display: flex;
+  flex-direction: column;
+  top: 1vw;
+}
+
+.linkBox a {
+  position: relative;
+  margin-top: 2vw;
+  font-family: "Freight Neo Pro", sans-serif;
+  font-size: 1.04vw;
+  font-weight: normal;
+  color: #969696;
+  transition: 0.3s;
+}
+
+.linkBox a:hover {
+  color: #f0f0f0;
+}
+
+.listLink {
+  position: fixed;
+  font-family: "Helvetica Now Display Medium", sans-serif;
+  font-size: 0.83vw;
+  color: #111111;
+  background-color: #f0f0f0;
+  padding: 1.04vw 1.56vw;
+  border-radius: 100vw;
+  font-weight: bold;
+  transition: 0.3s;
+  margin-top: 2vw;
+  top: 45vh;
+  right: 7vw;
+  width: max-content;
+}
+
+.listLink:hover {
+  background-color: #969696;
+}
+
+.mainHeader {
+  font-family: "Helvetica Now Display Regular", sans-serif;
+  font-size: 4.16vw;
+  font-weight: normal;
+  color: #f0f0f0;
+  width: 52vw;
+  padding-left: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 8.33vw;
+}
+
+.catagoryWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  padding-bottom: 8.33vw;
+}
+
+.catagoryHeader {
+  font-family: "Helvetica Now Display Regular", sans-serif;
+  font-size: 2.6vw;
+  font-weight: normal;
+  color: #f0f0f0;
+  width: 50vw;
+  padding-left: 2vw;
+}
+
+.brandExperienceWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2vw;
+  padding-bottom: 4.16vw;
+  width: 40vw;
+  padding-right: 6.33vw;
+}
+
+.brandExperience {
+  padding-left: 2vw;
+  width: 32.3vw;
+  height: 20.83vw;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.brandExperience:hover {
+  opacity: 0.5;
+}
+
+.itemsWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90vw;
+}
+
+.descriptionWrapper {
+  display: flex;
+  flex-direction: row;
+  width: 32.3vw;
+  flex-wrap: wrap;
+  padding-left: 2vw;
+}
+
+.mainText {
+  position: relative;
+  font-family: "Helvetica Now Display Regular", sans-serif;
+  font-size: 1.46vw;
+  font-weight: normal;
+  color: #f0f0f0;
+  width: 24vw;
+  padding-top: 1vw;
+}
+
+.subText {
+  position: relative;
+  font-family: "Freight Neo Pro", sans-serif;
+  font-size: 1.04vw;
+  font-weight: normal;
+  color: #969696;
+  width: 24vw;
+  padding-top: 0.5vw;
+  padding-bottom: 2vw;
+}
+
+.deleteBtn {
+  position: relative;
+  width: 3.33vw;
+  height: 3.33vw;
+  border: #f0f0f0 0.1vw solid;
+  margin-top: 1vw;
+  margin-left: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.whiteLine {
+  background-color: #f0f0f0;
+  height: 0.1vw;
+  width: 1.5vw;
+  transition: 0.3s;
+}
+
+.editText {
+  position: relative;
+  font-family: "Helvetica Now Display Regular", sans-serif;
+  font-size: 1vw;
+  font-weight: normal;
+  color: #f0f0f0;
+  transition: 0.3s;
+}
+
+.deleteBtn:hover {
+  background-color: #f0f0f0;
+}
+
+.deleteBtn:hover .whiteLine {
+  background-color: #111111;
+}
+
+.deleteBtn:hover .editText {
+  color: #111111;
+}
+
+.grayLine {
+  background-color: #969696;
+  height: 0.1vw;
+  width: 75vw;
+  margin-left: 2vw;
+}
+
+.yourWishes {
+  margin-top: 1vw;
+  font-family: "Freight Neo Pro", sans-serif;
+  font-size: 2vw;
+  font-weight: normal;
+  color: #969696;
+  padding-left: 2vw;
+  padding-bottom: 4.16vw;
+}
